@@ -1,0 +1,54 @@
+body {
+  color: $colorBody;
+  font-family: $font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: $bgBody;
+  overflow-x: hidden;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none !important;
+  transition: all 0.4s ease-in 0s;
+
+  &:hover {
+    color: inherit !important;
+  }
+}
+
+:focus {
+  outline: none;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: $bgRed;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  color: $colorWhite;
+  cursor: pointer;
+  z-index: 100000;
+  transition: all 0.4s ease-in 0s;
+
+  &:hover {
+    background-color: black;
+  }
+}
