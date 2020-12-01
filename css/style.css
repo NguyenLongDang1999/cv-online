@@ -44,6 +44,18 @@ a {
   .back-to-top:hover {
     background-color: black; }
 
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #e8676b; }
+
+::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+  border-radius: 6px; }
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5; }
+
 @media only screen and (max-width: 576px) {
   .header__nav-item {
     padding: 0px 10px !important; }
@@ -199,7 +211,7 @@ a {
         left: 0;
         background-color: #e8676b;
         height: 5px;
-        width: 70%; }
+        width: 60%; }
     .section__skill-one-progress.css {
       background-color: #e8676b8c;
       height: 5px;
@@ -211,7 +223,7 @@ a {
         left: 0;
         background-color: #e8676b;
         height: 5px;
-        width: 60%; }
+        width: 45%; }
     .section__skill-one-progress.scss {
       background-color: #e8676b8c;
       height: 5px;
@@ -223,7 +235,7 @@ a {
         left: 0;
         background-color: #e8676b;
         height: 5px;
-        width: 55%; }
+        width: 40%; }
     .section__skill-one-progress.jquery {
       background-color: #e8676b8c;
       height: 5px;
@@ -235,7 +247,7 @@ a {
         left: 0;
         background-color: #e8676b;
         height: 5px;
-        width: 55%; }
+        width: 45%; }
     .section__skill-one-progress.bootstrap {
       background-color: #e8676b8c;
       height: 5px;
@@ -271,7 +283,7 @@ a {
         left: 0;
         background-color: #e8676b;
         height: 5px;
-        width: 60%; }
+        width: 50%; }
     .section__skill-one-progress.laravel {
       background-color: #e8676b8c;
       height: 5px;
@@ -283,7 +295,7 @@ a {
         left: 0;
         background-color: #e8676b;
         height: 5px;
-        width: 50%; }
+        width: 40%; }
     .section__skill-one-progress.codeigniter {
       background-color: #e8676b8c;
       height: 5px;
@@ -295,7 +307,7 @@ a {
         left: 0;
         background-color: #e8676b;
         height: 5px;
-        width: 50%; }
+        width: 40%; }
     .section__skill-one-progress.mysql {
       background-color: #e8676b8c;
       height: 5px;
